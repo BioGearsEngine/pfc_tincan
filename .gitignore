@@ -1,0 +1,24 @@
+# Third party libraries
+
+# buildables
+*.pyc
+docs/build
+docs/source/modules.rst
+docs/source/tincan.rst
+docs/source/tincan.conversions.rst
+docs/source/tincan.documents.rst
+test/resources/lrs_properties.py
+
+# bad
+.DS_Store
+*.swp
+tmp/
+.idea/
+test/resources/lrs_properties.py
+
+# release
+dist
+tincan.egg-info/
+
+# wild
+todo.md
